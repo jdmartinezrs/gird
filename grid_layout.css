@@ -1,0 +1,38 @@
+@import url(variables.css);
+
+.pantalla{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 100px;
+    background-color: #2196f3;
+    padding: 10px;
+    
+}
+
+.caja {
+    background-color: #ffffff;
+    border: 1px spolid #000000;
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.caja2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 50px;
+    background-color: #4dd0e1;
+    padding: 50px;
+
+
+}
+
+.divo {
+    border: 3px solid rgb(232, 15, 15);
+    background-color: #4dd0e1;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: serif;
+  }
